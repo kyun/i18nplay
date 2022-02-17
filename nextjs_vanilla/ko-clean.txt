@@ -1,0 +1,357 @@
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+RETURN I18n
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+loadResources null
+done null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: { default: [ 'en' ] },
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh-TW', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh-TW', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'currentOnly',
+  preload: [ 'en', 'ko', 'zh-TW' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh-TW' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', 'zh-TW': 'tw' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  cleanCode: false,
+  allLanguages: [ 'en', 'ko', 'zh-TW' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+cloneInstance
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+loadResources null
+done null
+null querystring
+lookupCookie locale
+undefined cookie
+[ 'ko' ] header
+여기서 찾앗어?
+getBestMatchFromCodes [ 'ko' ]
+cleanedLng ko
+supportedLngs [ 'en', 'ko', 'zh-TW', 'cimode' ]
+found ko
+ko
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 ko
+setLng(ko)
+ko
+!_this4.language true
+!_this4.translator.language true
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources ko
+done ko
+i18next: languageChange ::  ko
+cloneInstance
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+loadResources null
+done null
+null querystring
+lookupCookie locale
+ko cookie
+여기서 찾앗어?
+getBestMatchFromCodes [ 'ko' ]
+cleanedLng ko
+supportedLngs [ 'en', 'ko', 'zh-TW', 'cimode' ]
+found ko
+ko
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 ko
+setLng(ko)
+ko
+!_this4.language true
+!_this4.translator.language true
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources ko
+done ko
+i18next: languageChange ::  ko
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 ko
+setLng(ko)
+ko
+!_this4.language false
+!_this4.translator.language false
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources ko
+done ko
+i18next: languageChange ::  ko
+cloneInstance
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+loadResources null
+done null
+no possibility found to get query >< >< ><
+no possibility found to get query >< >< ><
+ko-KR querystring
+여기서 찾앗어?
+getBestMatchFromCodes [ 'ko-KR' ]
+cleanedLng ko-KR
+supportedLngs [ 'en', 'ko', 'zh-TW', 'cimode' ]
+found ko-KR
+ko-KR
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 ko-KR
+setLng(ko-KR)
+ko-KR
+!_this4.language true
+!_this4.translator.language true
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources ko-KR
+done ko-KR
+i18next: languageChange ::  ko-KR
+loadResources
+cloneInstance
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+loadResources null
+done null
+no possibility found to get query >< >< ><
+no possibility found to get query >< >< ><
+ko-KR querystring
+여기서 찾앗어?
+getBestMatchFromCodes [ 'ko-KR' ]
+cleanedLng ko-KR
+supportedLngs [ 'en', 'ko', 'zh-TW', 'cimode' ]
+found ko-KR
+ko-KR
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 ko-KR
+setLng(ko-KR)
+ko-KR
+!_this4.language true
+!_this4.translator.language true
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources ko-KR
+done ko-KR
+i18next: languageChange ::  ko-KR
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 en
+setLng(en)
+en
+!_this4.language false
+!_this4.translator.language false
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources en
+done en
+i18next: languageChange ::  en
+event - build page: /_error
+wait  - compiling...
+event - compiled successfully
+cloneInstance
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+loadResources null
+done null
+null querystring
+lookupCookie locale
+en cookie
+여기서 찾앗어?
+getBestMatchFromCodes [ 'en' ]
+cleanedLng en
+supportedLngs [ 'en', 'ko', 'zh-TW', 'cimode' ]
+found en
+en
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 en
+setLng(en)
+en
+!_this4.language true
+!_this4.translator.language true
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources en
+done en
+i18next: languageChange ::  en
+cloneInstance
++++++ INIT +++++
+Line 1933
+changeLanguage in Load()
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2085 undefined
+setLng(undefined)
+getBestMatchFromCodes undefined
+null
+read to loadResources
+loadResources
+loadResources null
+done null
+null querystring
+lookupCookie locale
+en cookie
+여기서 찾앗어?
+getBestMatchFromCodes [ 'en' ]
+cleanedLng en
+supportedLngs [ 'en', 'ko', 'zh-TW', 'cimode' ]
+found en
+en
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 en
+setLng(en)
+en
+!_this4.language true
+!_this4.translator.language true
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources en
+done en
+i18next: languageChange ::  en
+>>>>>>>>>>>>>>>>>>changeLanguage
+Line 2091 en
+setLng(en)
+en
+!_this4.language false
+!_this4.translator.language false
+_this4.services.languageDetector
+read to loadResources
+loadResources
+loadResources en
+done en
+i18next: languageChange ::  en

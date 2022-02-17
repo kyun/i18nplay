@@ -1,0 +1,1143 @@
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /_error
+wait  - compiling...
+event - compiled successfully
+getBestMatchFromCodes undefined
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'languageOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+getBestMatchFromCodes undefined
+getBestMatchFromCodes [ 'en' ]
+found en
+i18next: languageChange ::  en
+i18next: languageChange ::  en
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+getBestMatchFromCodes undefined
+getBestMatchFromCodes [ 'en' ]
+found en
+i18next: languageChange ::  en
+i18next: languageChange ::  en
+getBestMatchFromCodes undefined
+getBestMatchFromCodes [
+  'zh-HK', 'zh',
+  'en',    'ko',
+  'es-MX', 'es',
+  'zh-TW', 'el',
+  'zh-CN', 'es-ES'
+]
+found zh-HK
+i18next: languageChange ::  zh-HK
+getBestMatchFromCodes undefined
+getBestMatchFromCodes [ 'zh-HK' ]
+found zh-HK
+i18next: languageChange ::  zh-HK
+i18next: languageChange ::  zh
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /_error
+wait  - compiling...
+event - compiled successfully
+getBestMatchFromCodes undefined
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+loadResources null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'languageOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+getBestMatchFromCodes undefined
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+loadResources zh
+i18next: languageChange ::  zh
+loadResources zh
+i18next: languageChange ::  zh
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+getBestMatchFromCodes undefined
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+loadResources zh
+i18next: languageChange ::  zh
+loadResources zh
+i18next: languageChange ::  zh
+getBestMatchFromCodes undefined
+loadResources null
+getBestMatchFromCodes [
+  'zh-HK', 'zh',
+  'en',    'ko',
+  'es-MX', 'es',
+  'zh-TW', 'el',
+  'zh-CN', 'es-ES'
+]
+found zh-HK
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+getBestMatchFromCodes undefined
+loadResources null
+getBestMatchFromCodes [ 'zh-HK' ]
+found zh-HK
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+loadResources zh
+i18next: languageChange ::  zh
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /_error
+wait  - compiling...
+event - compiled successfully
+getBestMatchFromCodes undefined
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+loadResources null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'languageOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+getBestMatchFromCodes undefined
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources null
+getBestMatchFromCodes [ 'en' ]
+isSupprtedCode en
+found en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources en
+isSupprtedCode en
+isSupprtedCode en
+i18next: languageChange ::  en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources en
+isSupprtedCode en
+isSupprtedCode en
+i18next: languageChange ::  en
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+getBestMatchFromCodes undefined
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources null
+getBestMatchFromCodes [ 'en' ]
+isSupprtedCode en
+found en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources en
+isSupprtedCode en
+isSupprtedCode en
+i18next: languageChange ::  en
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources en
+isSupprtedCode en
+isSupprtedCode en
+i18next: languageChange ::  en
+isSupprtedCode en
+getBestMatchFromCodes undefined
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources null
+getBestMatchFromCodes [
+  'zh-HK', 'zh',
+  'en',    'ko',
+  'es-MX', 'es',
+  'zh-TW', 'el',
+  'zh-CN', 'es-ES'
+]
+isSupprtedCode zh-HK
+found zh-HK
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources zh-HK
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+i18next: languageChange ::  zh-HK
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+getBestMatchFromCodes undefined
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources null
+getBestMatchFromCodes [ 'zh-HK' ]
+isSupprtedCode zh-HK
+found zh-HK
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources zh-HK
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+i18next: languageChange ::  zh-HK
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode en
+isSupprtedCode ko
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+loadResources zh
+isSupprtedCode zh
+isSupprtedCode en
+isSupprtedCode zh
+isSupprtedCode en
+i18next: languageChange ::  zh
+isSupprtedCode zh
+isSupprtedCode en
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+loadResources null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'languageOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+cloneInstance
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+cloneInstance
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /_error
+wait  - compiling...
+event - compiled successfully
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+loadResources null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'languageOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+cloneInstance
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [
+  'zh-HK', 'zh',
+  'en',    'ko',
+  'es-MX', 'es',
+  'zh-TW', 'el',
+  'zh-CN', 'es-ES'
+]
+found zh-HK
+changeLanguage
+loadResources
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+loadResources
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+cloneInstance
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+cloneInstance
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+cloneInstance
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh' ]
+found zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /_error
+wait  - compiling...
+event - compiled successfully
+RETURN I18n
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+loadResources null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'languageOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+cloneInstance
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'en' ]
+found en
+changeLanguage
+loadResources
+loadResources en
+i18next: languageChange ::  en
+changeLanguage
+loadResources
+loadResources en
+i18next: languageChange ::  en
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+cloneInstance
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'en' ]
+found en
+changeLanguage
+loadResources
+loadResources en
+i18next: languageChange ::  en
+changeLanguage
+loadResources
+loadResources en
+i18next: languageChange ::  en
+cloneInstance
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [
+  'zh-HK', 'zh',
+  'en',    'ko',
+  'es-MX', 'es',
+  'zh-TW', 'el',
+  'zh-CN', 'es-ES'
+]
+found zh-HK
+changeLanguage
+loadResources
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+loadResources
+cloneInstance
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh-HK' ]
+found zh-HK
+changeLanguage
+loadResources
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
+
+> nextjs_vanilla@0.1.0 dev /Users/kyun/workspace/playground/i18nplay/nextjs_vanilla
+> next dev
+
+ready - started server on http://localhost:3000
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+RETURN I18n
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+i18next::backendConnector: loaded namespace strings for language en { hello: 'Hello', strings: 'strings' }
+i18next::backendConnector: loaded namespace strings for language ko { hello: '안녕!', strings: '스트링스' }
+i18next::backendConnector: loaded namespace strings for language zh { hello: '니하오!', strings: '스트링스' }
+loadResources null
+i18next: initialized {
+  debug: true,
+  initImmediate: false,
+  ns: [ 'strings' ],
+  defaultNS: 'strings',
+  fallbackLng: [ 'en' ],
+  fallbackNS: false,
+  whitelist: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitWhitelist: false,
+  supportedLngs: [ 'en', 'ko', 'zh', 'cimode' ],
+  nonExplicitSupportedLngs: true,
+  load: 'langaugeOnly',
+  preload: [ 'en', 'ko', 'zh' ],
+  simplifyPluralSuffix: true,
+  keySeparator: false,
+  nsSeparator: ':',
+  pluralSeparator: '.',
+  contextSeparator: '/',
+  partialBundledLanguages: false,
+  saveMissing: false,
+  updateMissing: false,
+  saveMissingTo: 'fallback',
+  saveMissingPlurals: true,
+  missingKeyHandler: false,
+  missingInterpolationHandler: false,
+  postProcess: false,
+  postProcessPassResolved: false,
+  returnNull: true,
+  returnEmptyString: true,
+  returnObjects: false,
+  joinArrays: false,
+  returnedObjectHandler: false,
+  parseMissingKeyHandler: false,
+  appendNamespaceToMissingKey: false,
+  appendNamespaceToCIMode: false,
+  overloadTranslationOptionHandler: [Function: handle],
+  interpolation: { prefix: '{', suffix: '}' },
+  defaultLanguage: 'en',
+  otherLanguages: [ 'en', 'ko', 'zh' ],
+  localePath: 'public/locales',
+  localeStructure: '{lng}/{ns}',
+  localeExtension: 'json',
+  localeSubpaths: { en: 'en', ko: 'ko', zh: 'zh' },
+  use: [],
+  browserLanguageDetection: true,
+  serverLanguageDetection: true,
+  ignoreRoutes: [ '/_next/', '/static/', '/public/', '/api/' ],
+  customDetectors: [],
+  detection: {
+    caches: [ 'cookie' ],
+    cookieSameSite: 'strict',
+    lookupCookie: 'locale',
+    order: [ 'querystring', 'cookie', 'header' ],
+    lookupQuerystring: 'locale',
+    cookieOptions: { path: '/', secure: true },
+    lookupSession: 'lng',
+    lookupFromPathIndex: 0,
+    ignoreCase: true,
+    getPath: [Function: getPath],
+    getOriginalUrl: [Function: getOriginalUrl],
+    getUrl: [Function: getUrl],
+    setUrl: [Function: setUrl],
+    getParams: [Function: getParams],
+    getSession: [Function: getSession],
+    getQuery: [Function: getQuery],
+    getCookies: [Function: getCookies],
+    getBody: [Function: getBody],
+    getHeaders: [Function: getHeaders],
+    getHeader: [Function: getHeader],
+    setHeader: [Function: setHeader],
+    setContentType: [Function: setContentType],
+    setStatus: [Function: setStatus],
+    send: [Function: send]
+  },
+  react: { wait: true, useSuspense: false },
+  strictMode: true,
+  errorStackTraceLimit: 0,
+  shallowRender: false,
+  allLanguages: [ 'en', 'ko', 'zh' ],
+  backend: {
+    loadPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.json',
+    addPath: '/Users/kyun/workspace/playground/i18nplay/nextjs_vanilla/public/locales/{lng}/{ns}.missing.json',
+    ident: 2,
+    parse: [Function: parse],
+    stringify: [Function: stringify]
+  }
+}
+cloneInstance
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh-HK', 'zh' ]
+found zh-HK
+changeLanguage
+loadResources
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+loadResources
+cloneInstance
++++++ INIT +++++
+changeLanguage
+getBestMatchFromCodes undefined
+loadResources
+loadResources null
+getBestMatchFromCodes [ 'zh-HK' ]
+found zh-HK
+changeLanguage
+loadResources
+loadResources zh-HK
+i18next: languageChange ::  zh-HK
+changeLanguage
+loadResources
+loadResources zh
+i18next: languageChange ::  zh
